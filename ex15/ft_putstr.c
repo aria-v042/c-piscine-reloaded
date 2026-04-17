@@ -6,7 +6,7 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 06:17:21 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 06:19:14 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 07:40:10 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putstr(char *str)
 	i = str;
 	while (*i != '\0')
 	{
-		putchar(*i);
+		ft_putchar(*i);
 		i++;
 	}
 }
