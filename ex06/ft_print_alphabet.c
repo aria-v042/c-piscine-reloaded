@@ -6,7 +6,7 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 03:31:39 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 05:22:41 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 05:34:41 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	ft_print_alphabet(void)
 	}
 }
 
-// /*
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -38,4 +38,4 @@ int	main(void)
 	ft_print_alphabet();
 	return (0);
 }
-// */
+*/
