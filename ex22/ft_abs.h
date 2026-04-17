@@ -6,13 +6,11 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 08:57:48 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 09:11:22 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 09:21:33 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
-#define FT_ABS_H
-
-#define ABS(value) (((value) < 0) ? -(value) : (value))
-
+# define FT_ABS_H
+# define ABS(value) (((value) < 0) ? -(value) : (value))
 #endif
