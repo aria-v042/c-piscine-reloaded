@@ -6,7 +6,7 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 04:41:45 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 05:21:13 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 05:42:05 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,11 @@ void	ft_print_numbers(void)
 	while (numchar <= '9')
 	{
 		ft_putchar();
-		numchar++;_
+		numchar++;
 	}
 }
 
-// /*
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -38,4 +38,4 @@ int	main(void)
 	ft_print_numbers();
 	return (0);
 }
-// */
+*/
