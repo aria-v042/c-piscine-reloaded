@@ -6,13 +6,13 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 06:13:09 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 06:13:23 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 06:34:45 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_recursive_factorial(int nb)
 {
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 		return (0);
 	if (nb <= 1)
 		return (1);
