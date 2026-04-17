@@ -6,7 +6,7 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 04:41:45 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 05:42:05 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 05:53:06 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_print_numbers(void)
 	numchar = '0';
 	while (numchar <= '9')
 	{
-		ft_putchar();
+		ft_putchar(numchar);
 		numchar++;
 	}
 }
