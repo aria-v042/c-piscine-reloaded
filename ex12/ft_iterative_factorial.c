@@ -6,7 +6,7 @@
 /*   By: frodrig2 <frodrig2@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 06:09:11 by frodrig2          #+#    #+#             */
-/*   Updated: 2026/04/17 06:10:12 by frodrig2         ###   ########.fr       */
+/*   Updated: 2026/04/17 06:33:14 by frodrig2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ int	ft_iterative_factorial(int nb)
 {
 	int	factorial;
 
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 		return (0);
 	factorial = 1;
 	while (nb > 1)
